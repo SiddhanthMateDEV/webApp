@@ -16,6 +16,11 @@ Building a social media app based on the MERN stack to learn more about MERN and
 
 This project is a social media application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The purpose of this project is to gain a deeper understanding of the MERN stack and its capabilities by developing a fully functional social media platform.
 
+Later I will add the functionalities to incorporate adding LFT, MFT, HFT related strategies by different developers, professionals, & students. My end goal with this small project is to build a platform for people to connect, share, and contribute to the current existing mathematical computational finance field.
+
+
+The most import aspect of it which I see is to make it completely open source. Thats my goal here!
+
 ## Features
 
 - User authentication and authorization

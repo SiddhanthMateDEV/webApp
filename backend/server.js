@@ -1,7 +1,10 @@
 // console.log("server is running nodemon")
 
 import express  from "express";
+
 import authRoutes from "./routes/auth.routes.js";
+import userRoutes from "./routes/user.routes.js";
+
 import dotenv from "dotenv";
 import connectMongoDB from "./db/connectMongoDB.js";
 import bodyParser from "body-parser";
@@ -20,6 +23,8 @@ app.use(express.urlencoded({ extended: true }));//to parse form data { urlencode
 app.use(cookieParser()); // parse req cookies 
 
 app.use("/api/auth",authRoutes);
+app.use("/api/users",userRoutes);
+
 
 app.listen(PORT, () => {
     console.log(`Server is running at ${PORT}`);
